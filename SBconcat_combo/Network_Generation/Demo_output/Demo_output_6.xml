@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="Vilar2006_6" name="Vilar2006_6">
+    <listOfCompartments>
+      <compartment id="Cell" name="Cell" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="LR1R2_I" name="LR1R2_I" compartment="Cell" initialConcentration="16.91268223"/>
+      <species id="Sink" name="Sink" compartment="Cell" initialConcentration="0" boundaryCondition="true"/>
+      <species id="Synth" name="Synth" compartment="Cell" initialConcentration="1" boundaryCondition="true"/>
+      <species id="LR1R2" name="LR1R2" compartment="Cell" initialConcentration="1.691268223"/>
+      <species id="R2_I" name="R2_I" compartment="Cell" initialConcentration="1270.87"/>
+      <species id="TGFb" name="TGFb" compartment="Cell" initialConcentration="0.1" boundaryCondition="true"/>
+      <species id="R2" name="R2" compartment="Cell" initialConcentration="127.087"/>
+      <species id="R1_I" name="R1_I" compartment="Cell" initialConcentration="2710.87"/>
+      <species id="R1" name="R1" compartment="Cell" initialConcentration="271.087"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="Ka" value="0.1"/>
+      <parameter id="PR1" value="0.1"/>
+      <parameter id="Ki" value="0.1"/>
+      <parameter id="alpha" value="0.1"/>
+      <parameter id="Kr" value="0.1"/>
+      <parameter id="PR2" value="0.1"/>
+      <parameter id="Kcd" value="0.1"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="v1" name="v1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Synth" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> PR2 </ci>
+              <ci> Synth </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v2" name="v2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="R2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Sink" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> Kcd </ci>
+              <ci> R2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v3" name="v3" reversible="false">
+        <listOfReactants>
+          <speciesReference species="R1" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R1_I" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> Ki </ci>
+              <ci> R1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v4" name="v4" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Synth" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R1" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> PR1 </ci>
+              <ci> Synth </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v5" name="v5" reversible="false">
+        <listOfReactants>
+          <speciesReference species="LR1R2_I" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R1" stoichiometry="1"/>
+          <speciesReference species="R2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> alpha </ci>
+              <ci> Kr </ci>
+              <ci> LR1R2_I </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v6" name="v6" reversible="false">
+        <listOfReactants>
+          <speciesReference species="R1_I" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R1" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> Kr </ci>
+              <ci> R1_I </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v7" name="v7" reversible="false">
+        <listOfReactants>
+          <speciesReference species="TGFb" stoichiometry="1"/>
+          <speciesReference species="R1" stoichiometry="1"/>
+          <speciesReference species="R2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="LR1R2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> Ka </ci>
+              <ci> TGFb </ci>
+              <ci> R1 </ci>
+              <ci> R2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v8" name="v8" reversible="false">
+        <listOfReactants>
+          <speciesReference species="R2_I" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> Kr </ci>
+              <ci> R2_I </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v9" name="v9" reversible="false">
+        <listOfReactants>
+          <speciesReference species="R2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R2_I" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> Ki </ci>
+              <ci> R2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v10" name="v10" reversible="false">
+        <listOfReactants>
+          <speciesReference species="LR1R2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="LR1R2_I" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> Ki </ci>
+              <ci> LR1R2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v11" name="v11" reversible="false">
+        <listOfReactants>
+          <speciesReference species="R1" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Sink" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> Kcd </ci>
+              <ci> R1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

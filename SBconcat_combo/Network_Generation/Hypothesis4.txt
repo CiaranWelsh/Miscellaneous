@@ -1,0 +1,14 @@
+@model:2.1.1=Hypothesis4
+@compartments
+ Cell=1.0 "Cell"
+@species
+ Cell:[R1]=271.087 "R1"
+ Cell:[R2]=127.087 "R2"
+ Cell:[LR1R2_I]=16.91268223 "LR1R2_I"
+@parameters
+ Kr=0.1
+ alpha=0.1
+@reactions
+@r=v1 "v1"
+ LR1R2_I -> R1 + R2
+ Cell * alpha * Kr * LR1R2_I

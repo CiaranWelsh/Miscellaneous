@@ -1,0 +1,41 @@
+@model:2.4.1=demo_vilar_1 "demo_vilar_1"
+@compartments
+ Cell=1.0 "Cell"
+@species
+ Cell:[LR1R2_I]=16.91268223 "LR1R2_I"
+ Cell:[Sink]=0b "Sink"
+ Cell:[Synth]=1b "Synth"
+ Cell:[LR1R2]=1.691268223 "LR1R2"
+ Cell:[TGFb]=0.1b "TGFb"
+ Cell:[R2]=127.087 "R2"
+ Cell:[R1_I]=2710.87 "R1_I"
+ Cell:[R1]=271.087 "R1"
+@parameters
+ Kd=0.1
+ Ka=0.1
+ PR1=0.1
+ Ki=0.1
+ PR2=0.1
+ Kcd=0.1
+@reactions
+@r=v1 "v1"
+ Synth -> R2
+ Cell * PR2 * Synth
+@r=v2 "v2"
+ R2 -> Sink
+ Cell * Kcd * R2  
+@r=v3 "v3"
+ Synth -> R1
+ Cell * PR1 * Synth
+@r=v4 "v4"
+ TGFb + R1 + R2 -> LR1R2
+ Cell * Ka * TGFb * R1 * R2
+@r=v5 "v5"
+ LR1R2 -> TGFb + R1 + R2
+ Cell * Kd * LR1R2
+@r=v6 "v6"
+ LR1R2 -> LR1R2_I
+ Cell * Ki * LR1R2
+@r=v7 "v7"
+ R1 -> Sink
+ Cell * Kcd * R1 

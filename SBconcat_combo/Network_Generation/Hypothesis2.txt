@@ -1,0 +1,14 @@
+@model:2.1.1=Hypothesis2
+@compartments
+ Cell=1.0 "Cell"
+@species
+ Cell:[TGFb]=0.1b "TGFb"
+ Cell:[R1]=271.087 "R1"
+ Cell:[R2]=127.087 "R2"
+ Cell:[R1_I]=2710.87 "R1_I"
+@parameters
+ Kd=0.1
+@reactions
+@r=v1 "v1"
+ LR1R2 -> TGFb + R1 + R2
+ Cell * Kd * LR1R2

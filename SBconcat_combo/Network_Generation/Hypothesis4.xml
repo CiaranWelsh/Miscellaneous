@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+  <model id="Hypothesis4">
+    <listOfCompartments>
+      <compartment id="Cell" name="Cell" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="R1" name="R1" compartment="Cell" initialConcentration="271.087"/>
+      <species id="R2" name="R2" compartment="Cell" initialConcentration="127.087"/>
+      <species id="LR1R2_I" name="LR1R2_I" compartment="Cell" initialConcentration="16.91268223"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="Kr" value="0.1"/>
+      <parameter id="alpha" value="0.1"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="v1" name="v1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="LR1R2_I" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R1" stoichiometry="1"/>
+          <speciesReference species="R2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <ci> alpha </ci>
+              <ci> Kr </ci>
+              <ci> LR1R2_I </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

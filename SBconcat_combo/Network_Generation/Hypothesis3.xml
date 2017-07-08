@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+  <model id="Hypothesis3">
+    <listOfCompartments>
+      <compartment id="Cell" name="Cell" size="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="LR1R2" name="LR1R2" compartment="Cell" initialConcentration="1.691268223"/>
+      <species id="Sink" name="Sink" compartment="Cell" initialConcentration="0" boundaryCondition="true"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="Klid" value="0.1"/>
+      <parameter id="Kcd" value="0.1"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="v1" name="v1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="LR1R2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Sink" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cell </ci>
+              <apply>
+                <plus/>
+                <ci> Klid </ci>
+                <ci> Kcd </ci>
+              </apply>
+              <ci> LR1R2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

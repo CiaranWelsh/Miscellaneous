@@ -1,0 +1,26 @@
+@model:2.1.1=Hypothesis1
+@compartments
+ Cell=1.0 "Cell"
+@species
+ Cell:[R1]=271.087 "R1"
+ Cell:[R2]=127.087 "R2"
+ Cell:[R1_I]=2710.87 "R1_I"
+ Cell:[R2_I]=1270.87 "R2_I"
+ Cell:[Synth]=1b "Synth"
+ Cell:[Sink]=0b "Sink"
+@parameters
+ Ki=0.1
+ Kr=0.1
+@reactions
+@r=v1 "v1"
+ R1 -> R1_I
+ Cell * Ki * R1
+@r=v2 "v2"
+ R2 -> R2_I
+ Cell * Ki * R2
+@r=v3 "v3"
+ R1_I -> R1
+ Cell * Kr * R1_I
+@r=v4 "v4"
+ R2_I -> R2
+ Cell * Kr * R2_I

@@ -1,0 +1,13 @@
+@model:2.1.1=Hypothesis3
+@compartments
+ Cell=1.0 "Cell"
+@species
+ Cell:[LR1R2]=1.691268223 "LR1R2"
+ Cell:[Sink]=0b "Sink"
+@parameters
+ Klid=0.1
+ Kcd=0.1
+@reactions
+@r=v1 "v1"
+ LR1R2 -> Sink
+ Cell * (Klid + Kcd) * LR1R2
