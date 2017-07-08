@@ -10,3 +10,6 @@ Here I've written a script that can be used to normalize RPPA data. It'll need a
 
 # SBConcat_combo
 This is a piece of work I did a long time ago. The idea is to use sb_shorthand to concatonate model modules.This worked quite well and I then went on to use a matlab toolbox for optimization on the various output models. The optimization component is probably no longer needed as I can feed any models into PyCoTools but the concatonation of models for model selection is a good tool that I should remember about for my PhD. 
+
+# Microarray analysis
+These script are examples of how to assess QC for microarray data and how to extract differentially expressed genes for both time courses and non-time courses. I've not uploaded the actual data due to sensitivity reasons. 
