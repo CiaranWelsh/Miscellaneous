@@ -1,0 +1,3 @@
+Time	TGFb	Smad4_SnoN_n	Sara	Smad3c	InactiveFirstResponsePromoters	Smad7_Smurf2_n	Ski_c	Smad4_n	Smad4	Smad4_Ski_n	Smad4_c	Ski_n	Smad3	Smad7_Smurf2_c	pSmad34_SnoN_n	pSmad3_n	pSmad34_Ski_n	pSmad3_c	SnoN_n	Smad3_c	SnoN_c	Smad3_n	Smad2_Smurf7_n	ActiveFirstResponsePromoters	pSmad34_n	Smad7_n	pSmad3_SnoN_n	pSmad34_c	Smad7_c	Rec_Smad7	TBRII	RecActive	Smurf2	Smad3_Ski_c	FreeFirstResponsePromoters	Arkadia_c	TBRI	Smurf2_n	Smad7	Smurf2_c	RecIntermediate	Arkadia_n
+0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+1			0.999955						0.999955																																	
