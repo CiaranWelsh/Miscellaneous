@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.19 (Build 140) (http://www.copasi.org) at 2017-07-14 16:06:42 UTC -->
+<!-- generated with COPASI 4.19 (Build 140) (http://www.copasi.org) at 2017-07-14 16:12:10 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="19" versionDevel="140" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -283,8 +283,6 @@ Reaction scheme where the products are created from the reactants and the change
       </Metabolite>
       <Metabolite key="Metabolite_84" name="Arkadia_n" simulationType="reactions" compartment="Compartment_1">
       </Metabolite>
-      <Metabolite key="Metabolite_74" name="Smad4_n" simulationType="reactions" compartment="Compartment_1">
-      </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
       <ModelValue key="ModelValue_0" name="pSmad3Tot" simulationType="fixed">
@@ -341,6 +339,20 @@ Reaction scheme where the products are created from the reactants and the change
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_1" name="Receptor Activation" reversible="true" fast="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_1">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2017-07-14T17:10:50Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
           <Substrate metabolite="Metabolite_9" stoichiometry="2"/>
@@ -532,6 +544,20 @@ Reaction scheme where the products are created from the reactants and the change
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_6" name="pSmad3 bind Smad4" reversible="true" fast="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_6">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2017-07-14T17:10:45Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_13" stoichiometry="2"/>
           <Substrate metabolite="Metabolite_19" stoichiometry="1"/>
@@ -841,6 +867,20 @@ Reaction scheme where the products are created from the reactants and the change
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_16" name="reaction_16" reversible="false" fast="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_16">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2017-07-14T17:10:47Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
       </Reaction>
       <Reaction key="Reaction_17" name="TBRI prod" reversible="false" fast="false">
         <ListOfProducts>
@@ -1572,6 +1612,20 @@ Reaction scheme where the products are created from the reactants and the change
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_44" name="Receptor degradation" reversible="false" fast="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_44">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2017-07-14T17:10:48Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_61" stoichiometry="1"/>
           <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
@@ -1701,6 +1755,20 @@ Reaction scheme where the products are created from the reactants and the change
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_50" name="Ski bind Smad complex" reversible="true" fast="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_50">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2017-07-14T17:10:50Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
         <ListOfSubstrates>
           <Substrate metabolite="Metabolite_70" stoichiometry="2"/>
           <Substrate metabolite="Metabolite_27" stoichiometry="1"/>
@@ -2005,7 +2073,7 @@ Reaction scheme where the products are created from the reactants and the change
       </Reaction>
       <Reaction key="Reaction_64" name="reaction_1" reversible="true" fast="false">
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_74" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_25" stoichiometry="1"/>
           <Substrate metabolite="Metabolite_70" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
@@ -2021,7 +2089,7 @@ Reaction scheme where the products are created from the reactants and the change
               <SourceParameter reference="Parameter_4033"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_39">
-              <SourceParameter reference="Metabolite_74"/>
+              <SourceParameter reference="Metabolite_25"/>
               <SourceParameter reference="Metabolite_70"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_67">
@@ -2066,8 +2134,22 @@ Reaction scheme where the products are created from the reactants and the change
         </KineticLaw>
       </Reaction>
       <Reaction key="Reaction_67" name="reaction_7" reversible="true" fast="false">
+        <MiriamAnnotation>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="#Reaction_67">
+    <dcterms:created>
+      <rdf:Description>
+        <dcterms:W3CDTF>2017-07-14T17:10:49Z</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
+
+        </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_74" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_25" stoichiometry="1"/>
           <Substrate metabolite="Metabolite_72" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfProducts>
@@ -2083,7 +2165,7 @@ Reaction scheme where the products are created from the reactants and the change
               <SourceParameter reference="Parameter_4029"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_39">
-              <SourceParameter reference="Metabolite_74"/>
+              <SourceParameter reference="Metabolite_25"/>
               <SourceParameter reference="Metabolite_72"/>
             </CallParameter>
             <CallParameter functionParameter="FunctionParameter_67">
@@ -2106,6 +2188,306 @@ Reaction scheme where the products are created from the reactants and the change
     </ListOfReactions>
     <ListOfModelParameterSets activeSet="ModelParameterSet_1">
       <ModelParameterSet key="ModelParameterSet_1" name="Initial State">
+        <ModelParameterGroup cn="String=Initial Time" type="Group">
+          <ModelParameter cn="CN=Root,Model=New Model" value="0" type="Model" simulationType="time"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Compartment Sizes" type="Group">
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment]" value="1" type="Compartment" simulationType="fixed"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Species Values" type="Group">
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[TBRII]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[TGFb]" value="6.022140856999986e+20" type="Species" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[TGFb_TBRII]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[RecActive]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[TBRI]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Sara]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3_Sara]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3_Smad4n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Arkadia]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[ActiveFirstResponsePromoters]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[FreeFirstResponsePromoters]" value="60221408569999.98" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[InactiveFirstResponsePromoters]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4_Ski_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4_Snon_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smurf]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad7]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Ski]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Snon]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4_Ski_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4_Snon_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad7n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad7_Smurf]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad7_Smurf_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smurf_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[RecInhibition]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Ski_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Snon_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Ski_Smad3_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3_Ski]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Snon_n]" value="0" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Arkadia_n]" value="0" type="Species" simulationType="reactions"/>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[pSmad3Tot]" value="0" type="ModelValue" simulationType="fixed">
+            <InitialExpression>
+              &lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3n],Reference=InitialConcentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4n],Reference=InitialConcentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4_Ski_n],Reference=InitialConcentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4_Snon_n],Reference=InitialConcentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4],Reference=InitialConcentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Snon_n],Reference=InitialConcentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3],Reference=InitialConcentration>
+            </InitialExpression>
+          </ModelParameter>
+        </ModelParameterGroup>
+        <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[TGFb bind TBRII]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[TGFb bind TBRII],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[TGFb bind TBRII],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Receptor Activation]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Receptor Activation],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Receptor Activation],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=km" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=kcat" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 cyt dephos]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 cyt dephos],ParameterGroup=Parameters,Parameter=Km" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 cyt dephos],ParameterGroup=Parameters,Parameter=V" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2],ParameterGroup=Parameters,Parameter=km" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2],ParameterGroup=Parameters,Parameter=kcat" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 bind sara]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 bind sara],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 bind sara],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3 bind Smad4]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3 bind Smad4],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3 bind Smad4],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad4 transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad4 transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad4 transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_10]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_10],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_10],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3n bind Smad4n]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3n bind Smad4n],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3n bind Smad4n],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3 transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3 transport],ParameterGroup=Parameters,Parameter=Km" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3 transport],ParameterGroup=Parameters,Parameter=V" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 nuc dephos]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 nuc dephos],ParameterGroup=Parameters,Parameter=Km" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 nuc dephos],ParameterGroup=Parameters,Parameter=V" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad3_Smad4 dissoc]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3_Smad4 dissoc],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3n dephos]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[pSmad3n dephos],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_16]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[TBRI prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[TBRI prod],ParameterGroup=Parameters,Parameter=v" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[TBRI deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[TBRI deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[TBRII prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[TBRII prod],ParameterGroup=Parameters,Parameter=v" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[TBRII deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[TBRII deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 prod],ParameterGroup=Parameters,Parameter=v" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad3 deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad4 prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad4 prod],ParameterGroup=Parameters,Parameter=v" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad4 deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad4 deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Arkadia prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Arkadia prod],ParameterGroup=Parameters,Parameter=v" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Arkadia deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Arkadia deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Promoter activation]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Promoter activation],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Promoter activation],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation Ski]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation Ski],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation Ski],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation snon]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation snon],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation snon],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sara prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sara prod],ParameterGroup=Parameters,Parameter=k0" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sara prod],ParameterGroup=Parameters,Parameter=k" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sara deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sara deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smurf prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smurf prod],ParameterGroup=Parameters,Parameter=k0" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smurf prod],ParameterGroup=Parameters,Parameter=k" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smurf deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smurf deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Ski prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski prod],ParameterGroup=Parameters,Parameter=k0" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski prod],ParameterGroup=Parameters,Parameter=k" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Ski deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Snon prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon prod],ParameterGroup=Parameters,Parameter=k0" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon prod],ParameterGroup=Parameters,Parameter=k" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Snon deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon deg],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_38]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 prod]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 prod],ParameterGroup=Parameters,Parameter=k" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 prod],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 deg]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 deg],ParameterGroup=Parameters,Parameter=K" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 bind smurf nuc]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 bind smurf nuc],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7 bind smurf nuc],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smad7_smurf transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7_smurf transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smad7_smurf transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Receptor degradation]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Receptor degradation],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Receptor inhibition]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Receptor inhibition],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Receptor inhibition],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smurf degradation]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smurf degradation],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Smurf transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smurf transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Smurf transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_9]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Ski transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad complex]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad complex],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad complex],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Snon bind Smad complex]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon bind Smad complex],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon bind Smad complex],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad4n]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad4n],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad4n],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind smad3]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind smad3],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Ski bind smad3],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_17]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Snon Transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon Transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon Transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Snon bind pSmad3]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon bind pSmad3],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon bind pSmad3],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Snon deg2]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon deg2],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Snon deg3]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Snon deg3],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Arkadia transport]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Arkadia transport],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Arkadia transport],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_2]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_3]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_3],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_4]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_1]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_1],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_1],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_5]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_6]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_6],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_6],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_7]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_7],ParameterGroup=Parameters,Parameter=k1" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[reaction_7],ParameterGroup=Parameters,Parameter=k2" value="0.1" type="ReactionParameter" simulationType="fixed"/>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_8]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_11]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_12]" type="Reaction">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[reaction_13]" type="Reaction">
+          </ModelParameterGroup>
+        </ModelParameterGroup>
+      </ModelParameterSet>
+      <ModelParameterSet key="ModelParameterSet_0" name="0">
         <ModelParameterGroup cn="String=Initial Time" type="Group">
           <ModelParameter cn="CN=Root,Model=New Model" value="0" type="Model" simulationType="time"/>
         </ModelParameterGroup>
@@ -2418,42 +2800,41 @@ Reaction scheme where the products are created from the reactants and the change
       <StateTemplateVariable objectReference="Metabolite_11"/>
       <StateTemplateVariable objectReference="Metabolite_1"/>
       <StateTemplateVariable objectReference="Metabolite_9"/>
-      <StateTemplateVariable objectReference="Metabolite_19"/>
+      <StateTemplateVariable objectReference="Metabolite_25"/>
       <StateTemplateVariable objectReference="Metabolite_27"/>
       <StateTemplateVariable objectReference="Metabolite_45"/>
       <StateTemplateVariable objectReference="Metabolite_47"/>
+      <StateTemplateVariable objectReference="Metabolite_19"/>
       <StateTemplateVariable objectReference="Metabolite_37"/>
       <StateTemplateVariable objectReference="Metabolite_15"/>
       <StateTemplateVariable objectReference="Metabolite_49"/>
-      <StateTemplateVariable objectReference="Metabolite_25"/>
       <StateTemplateVariable objectReference="Metabolite_51"/>
       <StateTemplateVariable objectReference="Metabolite_33"/>
       <StateTemplateVariable objectReference="Metabolite_65"/>
       <StateTemplateVariable objectReference="Metabolite_7"/>
-      <StateTemplateVariable objectReference="Metabolite_74"/>
       <StateTemplateVariable objectReference="Metabolite_63"/>
+      <StateTemplateVariable objectReference="Metabolite_55"/>
       <StateTemplateVariable objectReference="Metabolite_21"/>
       <StateTemplateVariable objectReference="Metabolite_43"/>
-      <StateTemplateVariable objectReference="Metabolite_55"/>
       <StateTemplateVariable objectReference="Metabolite_59"/>
       <StateTemplateVariable objectReference="Metabolite_17"/>
       <StateTemplateVariable objectReference="Metabolite_31"/>
+      <StateTemplateVariable objectReference="Metabolite_76"/>
       <StateTemplateVariable objectReference="Metabolite_61"/>
       <StateTemplateVariable objectReference="Metabolite_80"/>
-      <StateTemplateVariable objectReference="Metabolite_76"/>
       <StateTemplateVariable objectReference="Metabolite_5"/>
-      <StateTemplateVariable objectReference="Metabolite_35"/>
+      <StateTemplateVariable objectReference="Metabolite_57"/>
+      <StateTemplateVariable objectReference="Metabolite_39"/>
       <StateTemplateVariable objectReference="Metabolite_41"/>
       <StateTemplateVariable objectReference="Metabolite_67"/>
       <StateTemplateVariable objectReference="Metabolite_82"/>
-      <StateTemplateVariable objectReference="Metabolite_57"/>
-      <StateTemplateVariable objectReference="Metabolite_39"/>
+      <StateTemplateVariable objectReference="Metabolite_35"/>
       <StateTemplateVariable objectReference="Metabolite_3"/>
       <StateTemplateVariable objectReference="Compartment_1"/>
       <StateTemplateVariable objectReference="ModelValue_0"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 0 0 0 0 0 0 0 0 0 0 0 0 0 6.022140856999997e+19 0 0 0 0 0 0 0 6.022140856999988e+20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6.022140856999986e+20 1 0 
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60221408569999.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6.022140856999986e+20 1 0 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -2537,7 +2918,7 @@ Reaction scheme where the products are created from the reactants and the change
       <Report reference="Report_12" target="" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Maximize" type="bool" value="0"/>
-        <Parameter name="Randomize Start Values" type="bool" value="0"/>
+        <Parameter name="Randomize Start Values" type="bool" value="1"/>
         <Parameter name="Calculate Statistics" type="bool" value="1"/>
         <ParameterGroup name="OptimizationItemList">
           <ParameterGroup name="FitItem">
@@ -2545,980 +2926,980 @@ Reaction scheme where the products are created from the reactants and the change
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Arkadia deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="0.1"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.0736507"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Arkadia prod],ParameterGroup=Parameters,Parameter=v,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.008251454216743928"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Arkadia transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.05250375630826439"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Arkadia transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="226.4352644336614"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter activation],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.4709859180478373"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter activation],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="53.68084823209907"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation Ski],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.5287761909997365"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation Ski],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.1646139977610777"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation snon],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.006048317559379383"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation snon],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.003339896450630529"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Receptor Activation],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.005539675687510724"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Receptor Activation],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.1129777286818842"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Receptor degradation],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.01047850734922147"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Receptor inhibition],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.01559180303422387"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Receptor inhibition],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="649.468610747571"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Sara deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="118.0263386344108"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Sara prod],ParameterGroup=Parameters,Parameter=k,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.002835255378731881"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Sara prod],ParameterGroup=Parameters,Parameter=k0,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.01038709076298512"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad complex],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.003187197813872733"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad complex],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.0017495025651553"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad4n],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="592.0440599376592"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad4n],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="2.055228888705349"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind smad3],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.009179477419301155"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind smad3],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.05051766598504907"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.1738580454626903"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski prod],ParameterGroup=Parameters,Parameter=k,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.002001670818157389"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski prod],ParameterGroup=Parameters,Parameter=k0,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="5.188557793872796"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.1858449997537664"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.7918570446015978"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=kcat,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="1.455419453266659"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=km,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="2.48508412156295"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 bind sara],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.7406090499399823"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 bind sara],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="2.24704221612485"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 cyt dephos],ParameterGroup=Parameters,Parameter=Km,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.003477276737859634"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 cyt dephos],ParameterGroup=Parameters,Parameter=V,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="1.004407910983427"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.01051318685079519"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2],ParameterGroup=Parameters,Parameter=kcat,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.1371820525108463"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2],ParameterGroup=Parameters,Parameter=km,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="573.0184260326519"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 prod],ParameterGroup=Parameters,Parameter=v,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="140.836123017286"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="42.29833746382237"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.003384677156008902"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3_Smad4 dissoc],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.03814071883345253"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.06395064279625157"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 prod],ParameterGroup=Parameters,Parameter=v,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="222.9102083326765"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="184.5085693190708"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="143.3608715596216"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 bind smurf nuc],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="237.5193100193149"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 bind smurf nuc],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.001683394610201863"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 deg],ParameterGroup=Parameters,Parameter=K,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="42.85081298237696"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 prod],ParameterGroup=Parameters,Parameter=k,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.0075453006052895"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 prod],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="50.69343531283465"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="31.66856719343734"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="3.13844640179637"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7_smurf transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="2.908021441929069"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7_smurf transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="45.7942802594631"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smurf deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.490383041648346"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smurf degradation],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="4.376934937250779"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smurf prod],ParameterGroup=Parameters,Parameter=k,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="3.029674436785369"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smurf prod],ParameterGroup=Parameters,Parameter=k0,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="52.60379902575642"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smurf transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.9325792866923587"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smurf transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.00913442945500772"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon Transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="21.67032536539783"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon Transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.01544223212988704"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon bind Smad complex],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.2016097464346738"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon bind Smad complex],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.07683519358592632"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon bind pSmad3],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="2.275715756264986"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon bind pSmad3],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="131.6258961780482"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="2.850219492613964"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon deg2],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.0128195642432704"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon deg3],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="1.317444746429234"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon prod],ParameterGroup=Parameters,Parameter=k,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.05964084691286713"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon prod],ParameterGroup=Parameters,Parameter=k0,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.001141033364518265"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TBRI deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.02299052707610749"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TBRI prod],ParameterGroup=Parameters,Parameter=v,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.1260504105611608"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TBRII deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.4260356916578029"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TBRII prod],ParameterGroup=Parameters,Parameter=v,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.6023871824841998"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TGFb bind TBRII],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="616.6223083753714"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TGFb bind TBRII],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="8.126529915066097"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3 bind Smad4],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="250.2652627219978"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3 bind Smad4],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="1.997580082366873"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3 transport],ParameterGroup=Parameters,Parameter=Km,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="1.973610195878495"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3 transport],ParameterGroup=Parameters,Parameter=V,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.002269738663781987"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 nuc dephos],ParameterGroup=Parameters,Parameter=Km,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.0191723765957785"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 nuc dephos],ParameterGroup=Parameters,Parameter=V,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.001310712715731411"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.3207939833145308"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="392.3048987041579"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3n bind Smad4n],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.001799411027410604"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3n bind Smad4n],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.04074081920254034"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3n dephos],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.02021001146323334"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_1],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="189.6573600400344"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_1],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="1.665500654122214"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_10],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="24.88753488905471"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_10],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.06855096013859553"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_3],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.003313033282778624"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_6],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="1.410292040290766"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_6],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="1.704521034497034"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_7],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="42.27399925783415"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[reaction_7],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="NaN"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="5.811015769342676"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="OptimizationConstraintList">
@@ -3527,15 +3908,37 @@ Reaction scheme where the products are created from the reactants and the change
         <Parameter name="Time-Course" type="cn" value="CN=Root,Vector=TaskList[Time-Course]"/>
         <Parameter name="Create Parameter Sets" type="bool" value="0"/>
         <ParameterGroup name="Experiment Set">
+          <ParameterGroup name="Experiment">
+            <Parameter name="Data is Row Oriented" type="bool" value="1"/>
+            <Parameter name="Experiment Type" type="unsignedInteger" value="1"/>
+            <Parameter name="File Name" type="file" value="pSmad3_WB_Adult.csv"/>
+            <Parameter name="First Row" type="unsignedInteger" value="1"/>
+            <Parameter name="Key" type="key" value="Experiment_0"/>
+            <Parameter name="Last Row" type="unsignedInteger" value="7"/>
+            <Parameter name="Normalize Weights per Experiment" type="bool" value="1"/>
+            <Parameter name="Number of Columns" type="unsignedInteger" value="2"/>
+            <ParameterGroup name="Object Map">
+              <ParameterGroup name="0">
+                <Parameter name="Role" type="unsignedInteger" value="3"/>
+              </ParameterGroup>
+              <ParameterGroup name="1">
+                <Parameter name="Object CN" type="cn" value="CN=Root,Model=New Model,Vector=Values[pSmad3Tot],Reference=Value"/>
+                <Parameter name="Role" type="unsignedInteger" value="2"/>
+              </ParameterGroup>
+            </ParameterGroup>
+            <Parameter name="Row containing Names" type="unsignedInteger" value="1"/>
+            <Parameter name="Separator" type="string" value="&#x09;"/>
+            <Parameter name="Weight Method" type="unsignedInteger" value="1"/>
+          </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="Validation Set">
           <Parameter name="Weight" type="unsignedFloat" value="1"/>
           <Parameter name="Threshold" type="unsignedInteger" value="5"/>
         </ParameterGroup>
       </Problem>
-      <Method name="Evolutionary Programming" type="EvolutionaryProgram">
-        <Parameter name="Number of Generations" type="unsignedInteger" value="200"/>
-        <Parameter name="Population Size" type="unsignedInteger" value="20"/>
+      <Method name="Genetic Algorithm" type="GeneticAlgorithm">
+        <Parameter name="Number of Generations" type="unsignedInteger" value="500"/>
+        <Parameter name="Population Size" type="unsignedInteger" value="200"/>
         <Parameter name="Random Number Generator" type="unsignedInteger" value="1"/>
         <Parameter name="Seed" type="unsignedInteger" value="0"/>
       </Method>
@@ -4237,6 +4640,18 @@ Reaction scheme where the products are created from the reactants and the change
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Arkadia_n],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="[Smad4_n]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>
