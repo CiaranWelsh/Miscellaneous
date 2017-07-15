@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.19 (Build 140) (http://www.copasi.org) at 2017-07-14 22:16:56 UTC -->
+<!-- generated with COPASI 4.19 (Build 140) (http://www.copasi.org) at 2017-07-14 23:12:45 UTC -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="19" versionDevel="140" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -272,9 +272,7 @@ Reaction scheme where the products are created from the reactants and the change
     <ListOfModelValues>
       <ModelValue key="ModelValue_0" name="pSmad3Tot" simulationType="assignment">
         <MiriamAnnotation>
-<rdf:RDF
-   xmlns:dcterms="http://purl.org/dc/terms/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#ModelValue_0">
     <dcterms:created>
       <rdf:Description>
@@ -283,7 +281,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
-
         </MiriamAnnotation>
         <Expression>
           &lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3],Reference=Concentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4],Reference=Concentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4_Ski_n],Reference=Concentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4_Snon_n],Reference=Concentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4n],Reference=Concentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Snon_n],Reference=Concentration>+&lt;CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3n],Reference=Concentration>
@@ -2686,8 +2683,8 @@ Reaction scheme where the products are created from the reactants and the change
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
-        <Parameter name="StepSize" type="float" value="100"/>
-        <Parameter name="Duration" type="float" value="10000"/>
+        <Parameter name="StepSize" type="float" value="1"/>
+        <Parameter name="Duration" type="float" value="100"/>
         <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
@@ -2752,40 +2749,580 @@ Reaction scheme where the products are created from the reactants and the change
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Arkadia transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="5.36408"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter activation],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.1001536349614132"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation Ski],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="87.23392312647222"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Promoter inactivation snon],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="104.4679214005529"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Receptor Activation],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="825.3801110061828"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Receptor degradation],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="14.33226129104299"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Receptor inhibition],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.01890354940938201"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Sara prod],ParameterGroup=Parameters,Parameter=k0,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="137.607743086291"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad complex],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="251.3330497925756"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind Smad4n],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.008150620902865115"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski bind smad3],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.2190922421201653"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski prod],ParameterGroup=Parameters,Parameter=k,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.1287387991486869"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski prod],ParameterGroup=Parameters,Parameter=k0,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="26.55564338900029"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Ski transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.2709315676744075"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=kcat,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="0.0557431"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="4.512314749781207"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=km,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="265.335866392438"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.0914027645649985"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 bind sara],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.2353089418236387"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 cyt dephos],ParameterGroup=Parameters,Parameter=Km,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="17.88829370773615"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 cyt dephos],ParameterGroup=Parameters,Parameter=V,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="425.9391422603804"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.01103756498058497"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2],ParameterGroup=Parameters,Parameter=kcat,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="0.0001000606697540067"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="0.006149620549182551"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2],ParameterGroup=Parameters,Parameter=km,Reference=Value"/>
-            <Parameter name="StartValue" type="float" value="1866.535917424451"/>
-            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+            <Parameter name="StartValue" type="float" value="2.502398027870734"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="9.447976148611588"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3_Smad4 dissoc],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="34.63109136810918"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 prod],ParameterGroup=Parameters,Parameter=v,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="378.9139778361461"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.03149425831607303"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 bind smurf nuc],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.01299254553538978"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 deg],ParameterGroup=Parameters,Parameter=K,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.06576094046157069"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 prod],ParameterGroup=Parameters,Parameter=k,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.008426799462021619"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 prod],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="31.61274103292856"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7 transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.1871545760518588"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad7_smurf transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.2723304796346378"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smurf deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="4.813575854892537"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smurf transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="21.91966818182767"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon Transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="1.384013440124416"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon bind Smad complex],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.04587365496571094"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon bind pSmad3],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.005672003486924592"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.3247303191993661"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon deg2],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.7739451985932457"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon deg3],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.006403834586271596"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon prod],ParameterGroup=Parameters,Parameter=k,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="81.73335534004323"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon prod],ParameterGroup=Parameters,Parameter=k0,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.001097040658058502"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TBRI deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="9.887101963811352"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TBRII deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="97.63218654106976"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[TGFb bind TBRII],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.4863490410984919"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3 bind Smad4],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="2.277328616876424"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3 transport],ParameterGroup=Parameters,Parameter=Km,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="5.496674950151908"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3 transport],ParameterGroup=Parameters,Parameter=V,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.002141800552883743"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 nuc dephos],ParameterGroup=Parameters,Parameter=Km,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.06087148162486915"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 nuc dephos],ParameterGroup=Parameters,Parameter=V,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.05490443240890409"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3_Smad4 transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.06354706387402534"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3n bind Smad4n],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="1.351891227256548"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[pSmad3n dephos],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="358.9808885533531"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 bind ski],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="2.985902151185861"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 Transport],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.1315538039026997"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Snon Deg by smurf],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="17.52936960203808"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4_Ski_n inhibit promoters],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="7.318184516992791"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
+          </ParameterGroup>
+          <ParameterGroup name="FitItem">
+            <ParameterGroup name="Affected Cross Validation Experiments">
+            </ParameterGroup>
+            <ParameterGroup name="Affected Experiments">
+            </ParameterGroup>
+            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 bind snon],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="67.03278455888314"/>
+            <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="OptimizationConstraintList">
@@ -2871,10 +3408,10 @@ Reaction scheme where the products are created from the reactants and the change
     <Task key="Task_23" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
       <Report reference="Report_16" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="SubtaskType" type="unsignedInteger" value="2"/>
+        <Parameter name="SubtaskType" type="unsignedInteger" value="1"/>
         <ParameterGroup name="TargetFunctions">
-          <Parameter name="SingleObject" type="cn" value="CN=Root,Model=New Model,Vector=Values[pSmad3Tot],Reference=Value"/>
-          <Parameter name="ObjectListType" type="unsignedInteger" value="1"/>
+          <Parameter name="SingleObject" type="cn" value=""/>
+          <Parameter name="ObjectListType" type="unsignedInteger" value="7"/>
         </ParameterGroup>
         <ParameterGroup name="ListOfVariables">
           <ParameterGroup name="Variables">
@@ -3073,36 +3610,36 @@ Reaction scheme where the products are created from the reactants and the change
       <Parameter name="log Y" type="bool" value="0"/>
       <ListOfPlotItems>
         <PlotItem name="Experiment,Values[pSmad3Tot](Measured Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="3"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
           <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="after"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Independent Value"/>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Measured Value"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="Experiment,Values[pSmad3Tot](Fitted Value)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="after"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Independent Value"/>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Fitted Value"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="Experiment,Values[pSmad3Tot](Weighted Error)" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="2"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
           <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="after"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Independent Value"/>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Weighted Error"/>
@@ -3115,12 +3652,12 @@ Reaction scheme where the products are created from the reactants and the change
       <Parameter name="log Y" type="bool" value="1"/>
       <ListOfPlotItems>
         <PlotItem name="sum of squares" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Function Evaluations"/>
             <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Value"/>
@@ -3133,471 +3670,459 @@ Reaction scheme where the products are created from the reactants and the change
       <Parameter name="log Y" type="bool" value="0"/>
       <ListOfPlotItems>
         <PlotItem name="[TBRII]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[TBRII],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[TGFb_TBRII]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[TGFb_TBRII],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[RecActive]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[RecActive],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[TBRI]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[TBRI],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad3]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pSmad3]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Sara]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Sara],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad3_Sara]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3_Sara],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad4]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pSmad3_Smad4]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad3n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad4n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pSmad3_Smad4n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pSmad3n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad3_Smad4n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3_Smad4n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Arkadia]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Arkadia],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[ActiveFirstResponsePromoters]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[ActiveFirstResponsePromoters],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[FreeFirstResponsePromoters]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[FreeFirstResponsePromoters],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[InactiveFirstResponsePromoters]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[InactiveFirstResponsePromoters],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pSmad3_Smad4_Ski_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4_Ski_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pSmad3_Smad4_Snon_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Smad4_Snon_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smurf]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smurf],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad7]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad7],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Ski]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Ski],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Snon]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Snon],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad4_Ski_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4_Ski_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad4_Snon_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad4_Snon_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad7n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad7n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad7_Smurf]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad7_Smurf],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad7_Smurf_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad7_Smurf_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smurf_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smurf_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[RecInhibition]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[RecInhibition],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Ski_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Ski_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Snon_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Snon_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Ski_Smad3_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Ski_Smad3_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Smad3_Ski]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Smad3_Ski],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[pSmad3_Snon_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[pSmad3_Snon_n],Reference=Concentration"/>
           </ListOfChannels>
         </PlotItem>
         <PlotItem name="[Arkadia_n]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
           <Parameter name="Recording Activity" type="string" value="during"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Arkadia_n],Reference=Concentration"/>
-          </ListOfChannels>
-        </PlotItem>
-        <PlotItem name="Values[pSmad3Tot]" type="Curve2D">
-          <Parameter name="Line type" type="unsignedInteger" value="0"/>
-          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Line width" type="unsignedFloat" value="1"/>
-          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
-          <Parameter name="Color" type="string" value="auto"/>
-          <Parameter name="Recording Activity" type="string" value="during"/>
-          <ListOfChannels>
-            <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
-            <ChannelSpec cn="CN=Root,Model=New Model,Vector=Values[pSmad3Tot],Reference=Value"/>
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>
