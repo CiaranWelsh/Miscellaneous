@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <!-- generated with COPASI 4.19 (Build 140) (http://www.copasi.org) at 2017-07-14 23:12:45 UTC -->
+=======
+<!-- generated with COPASI 4.19 (Build 140) (http://www.copasi.org) at 2017-07-14 22:16:56 UTC -->
+>>>>>>> refs/remotes/origin/master
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="19" versionDevel="140" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -2683,8 +2687,13 @@ Reaction scheme where the products are created from the reactants and the change
       <Problem>
         <Parameter name="AutomaticStepSize" type="bool" value="0"/>
         <Parameter name="StepNumber" type="unsignedInteger" value="100"/>
+<<<<<<< HEAD
         <Parameter name="StepSize" type="float" value="1"/>
         <Parameter name="Duration" type="float" value="100"/>
+=======
+        <Parameter name="StepSize" type="float" value="100"/>
+        <Parameter name="Duration" type="float" value="10000"/>
+>>>>>>> refs/remotes/origin/master
         <Parameter name="TimeSeriesRequested" type="bool" value="1"/>
         <Parameter name="OutputStartTime" type="float" value="0"/>
         <Parameter name="Output Event" type="bool" value="0"/>
@@ -2749,6 +2758,7 @@ Reaction scheme where the products are created from the reactants and the change
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
+<<<<<<< HEAD
             <Parameter name="LowerBound" type="cn" value="1e-3"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Arkadia transport],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
             <Parameter name="StartValue" type="float" value="5.36408"/>
@@ -2893,14 +2903,21 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=kcat,Reference=Value"/>
             <Parameter name="StartValue" type="float" value="4.512314749781207"/>
             <Parameter name="UpperBound" type="cn" value="1e3"/>
+=======
+            <Parameter name="LowerBound" type="cn" value="1e-06"/>
+            <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=kcat,Reference=Value"/>
+            <Parameter name="StartValue" type="float" value="0.0557431"/>
+            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+>>>>>>> refs/remotes/origin/master
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="LowerBound" type="cn" value="1e-06"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 Phos1],ParameterGroup=Parameters,Parameter=km,Reference=Value"/>
+<<<<<<< HEAD
             <Parameter name="StartValue" type="float" value="0.0914027645649985"/>
             <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
@@ -2943,24 +2960,34 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 deg],ParameterGroup=Parameters,Parameter=k1,Reference=Value"/>
             <Parameter name="StartValue" type="float" value="0.01103756498058497"/>
             <Parameter name="UpperBound" type="cn" value="1e3"/>
+=======
+            <Parameter name="StartValue" type="float" value="265.335866392438"/>
+            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+>>>>>>> refs/remotes/origin/master
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="LowerBound" type="cn" value="1e-06"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2],ParameterGroup=Parameters,Parameter=kcat,Reference=Value"/>
+<<<<<<< HEAD
             <Parameter name="StartValue" type="float" value="0.006149620549182551"/>
             <Parameter name="UpperBound" type="cn" value="1e3"/>
+=======
+            <Parameter name="StartValue" type="float" value="0.0001000606697540067"/>
+            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+>>>>>>> refs/remotes/origin/master
           </ParameterGroup>
           <ParameterGroup name="FitItem">
             <ParameterGroup name="Affected Cross Validation Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
-            <Parameter name="LowerBound" type="cn" value="1e-3"/>
+            <Parameter name="LowerBound" type="cn" value="1e-06"/>
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad3 phos2],ParameterGroup=Parameters,Parameter=km,Reference=Value"/>
+<<<<<<< HEAD
             <Parameter name="StartValue" type="float" value="2.502398027870734"/>
             <Parameter name="UpperBound" type="cn" value="1e3"/>
           </ParameterGroup>
@@ -3323,6 +3350,10 @@ Reaction scheme where the products are created from the reactants and the change
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Reactions[Smad4 bind snon],ParameterGroup=Parameters,Parameter=k2,Reference=Value"/>
             <Parameter name="StartValue" type="float" value="67.03278455888314"/>
             <Parameter name="UpperBound" type="cn" value="1e3"/>
+=======
+            <Parameter name="StartValue" type="float" value="1866.535917424451"/>
+            <Parameter name="UpperBound" type="cn" value="1e+06"/>
+>>>>>>> refs/remotes/origin/master
           </ParameterGroup>
         </ParameterGroup>
         <ParameterGroup name="OptimizationConstraintList">
@@ -3408,10 +3439,10 @@ Reaction scheme where the products are created from the reactants and the change
     <Task key="Task_23" name="Sensitivities" type="sensitivities" scheduled="false" updateModel="false">
       <Report reference="Report_16" target="" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="SubtaskType" type="unsignedInteger" value="1"/>
+        <Parameter name="SubtaskType" type="unsignedInteger" value="2"/>
         <ParameterGroup name="TargetFunctions">
-          <Parameter name="SingleObject" type="cn" value=""/>
-          <Parameter name="ObjectListType" type="unsignedInteger" value="7"/>
+          <Parameter name="SingleObject" type="cn" value="CN=Root,Model=New Model,Vector=Values[pSmad3Tot],Reference=Value"/>
+          <Parameter name="ObjectListType" type="unsignedInteger" value="1"/>
         </ParameterGroup>
         <ParameterGroup name="ListOfVariables">
           <ParameterGroup name="Variables">
@@ -3606,6 +3637,69 @@ Reaction scheme where the products are created from the reactants and the change
   </ListOfReports>
   <ListOfPlots>
     <PlotSpecification name="Parameter Estimation Result" type="Plot2D" active="1">
+<<<<<<< HEAD
+=======
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="0"/>
+      <ListOfPlotItems>
+        <PlotItem name="Experiment,Values[pSmad3Tot](Measured Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="3"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="1"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Measured Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Experiment,Values[pSmad3Tot](Fitted Value)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Fitted Value"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Experiment,Values[pSmad3Tot](Weighted Error)" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="2"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="2"/>
+          <Parameter name="Color" type="string" value="#FF0000"/>
+          <Parameter name="Recording Activity" type="string" value="after"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Independent Value"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,ParameterGroup=Experiment Set,ParameterGroup=Experiment,Vector=Fitted Points[0],Reference=Weighted Error"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+    <PlotSpecification name="Progress of Fit" type="Plot2D" active="1">
+      <Parameter name="log X" type="bool" value="0"/>
+      <Parameter name="log Y" type="bool" value="1"/>
+      <ListOfPlotItems>
+        <PlotItem name="sum of squares" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+          <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Line width" type="unsignedFloat" value="1"/>
+          <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
+          <Parameter name="Color" type="string" value="auto"/>
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Function Evaluations"/>
+            <ChannelSpec cn="CN=Root,Vector=TaskList[Parameter Estimation],Problem=Parameter Estimation,Reference=Best Value"/>
+          </ListOfChannels>
+        </PlotItem>
+      </ListOfPlotItems>
+    </PlotSpecification>
+    <PlotSpecification name="Concentrations, Volumes, and Global Quantity Values" type="Plot2D" active="1">
+>>>>>>> refs/remotes/origin/master
       <Parameter name="log X" type="bool" value="0"/>
       <Parameter name="log Y" type="bool" value="0"/>
       <ListOfPlotItems>
@@ -4115,6 +4209,17 @@ Reaction scheme where the products are created from the reactants and the change
         </PlotItem>
         <PlotItem name="[Arkadia_n]" type="Curve2D">
           <Parameter name="Color" type="string" value="auto"/>
+<<<<<<< HEAD
+=======
+          <Parameter name="Recording Activity" type="string" value="during"/>
+          <ListOfChannels>
+            <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
+            <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Arkadia_n],Reference=Concentration"/>
+          </ListOfChannels>
+        </PlotItem>
+        <PlotItem name="Values[pSmad3Tot]" type="Curve2D">
+          <Parameter name="Line type" type="unsignedInteger" value="0"/>
+>>>>>>> refs/remotes/origin/master
           <Parameter name="Line subtype" type="unsignedInteger" value="0"/>
           <Parameter name="Line type" type="unsignedInteger" value="0"/>
           <Parameter name="Line width" type="unsignedFloat" value="1"/>
@@ -4122,7 +4227,11 @@ Reaction scheme where the products are created from the reactants and the change
           <Parameter name="Symbol subtype" type="unsignedInteger" value="0"/>
           <ListOfChannels>
             <ChannelSpec cn="CN=Root,Model=New Model,Reference=Time"/>
+<<<<<<< HEAD
             <ChannelSpec cn="CN=Root,Model=New Model,Vector=Compartments[compartment],Vector=Metabolites[Arkadia_n],Reference=Concentration"/>
+=======
+            <ChannelSpec cn="CN=Root,Model=New Model,Vector=Values[pSmad3Tot],Reference=Value"/>
+>>>>>>> refs/remotes/origin/master
           </ListOfChannels>
         </PlotItem>
       </ListOfPlotItems>
