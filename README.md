@@ -1,5 +1,5 @@
 # Miscellaneous
-Collection of old subprojects that are not big enough to warrant their own repository 
+Collection of old subprojects that are not big enough to warrant their own repository. This is more for code storage and this project is not maintained. 
 
 
 # LASSO Regression
